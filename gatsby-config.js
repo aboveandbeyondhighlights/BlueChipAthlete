@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Blue Chip Athlete`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Create a stunning soccer recruiting profile that will generate interest from college soccer coaches`,
     author: `Kayla Cohn`,
   },
   plugins: [
@@ -36,7 +36,17 @@ module.exports = {
           `source sans pro\:300,400,500,600,700,800,900` // you can also specify font weights and styles
         ]
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-THTTKDN",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
