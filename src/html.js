@@ -10,7 +10,7 @@ import faviconApple144 from '../public/icons/apple-icon-144x144.png';
 import faviconApple152 from '../public/icons/apple-icon-152x152.png';
 import faviconApple180 from '../public/icons/apple-icon-180x180.png';
 import faviconApple from '../public/icons/apple-icon-72x72.png';
-import faviconAndroid from '../public/icons/android-icon-192x192.png';
+import faviconAndroid from '../public/icons/android-icon-96x96.png';
 import favicon16 from '../public/icons/favicon-16x16.png';
 import favicon32 from '../public/icons/favicon-32x32.png';
 import favicon from '../public/icons/favicon-96x96.png';
@@ -36,7 +36,7 @@ export default class HTML extends React.Component {
           <link rel="apple-touch-icon" sizes="144x144" href={faviconApple144} />
           <link rel="apple-touch-icon" sizes="152x152" href={faviconApple152} />
           <link rel="apple-touch-icon" sizes="180x180" href={faviconApple180} />
-          <link rel="icon" type="image/png" sizes="192x192"  href={faviconAndroid} />
+          <link rel="icon" type="image/png" sizes="96x96"  href={faviconAndroid} />
           <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
           <link rel="icon" type="image/png" sizes="96x96" href={favicon} />
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
