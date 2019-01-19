@@ -1,19 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import faviconApple57 from '../public/icons/apple-icon-57x57.png';
-import faviconApple60 from '../public/icons/apple-icon-60x60.png';
-import faviconApple76 from '../public/icons/apple-icon-76x76.png';
-import faviconApple114 from '../public/icons/apple-icon-114x114.png';
-import faviconApple120 from '../public/icons/apple-icon-120x120.png';
-import faviconApple144 from '../public/icons/apple-icon-144x144.png';
-import faviconApple152 from '../public/icons/apple-icon-152x152.png';
-import faviconApple180 from '../public/icons/apple-icon-180x180.png';
-import faviconApple from '../public/icons/apple-icon-72x72.png';
-import favicon16 from '../public/icons/favicon-16x16.png';
-import favicon32 from '../public/icons/favicon-32x32.png';
-import favicon from '../public/icons/favicon-96x96.png';
-import msicon from '../public/icons/ms-icon-144x144.png'
+import faviconApple57 from '../src/images/icons/apple-icon-57x57.png';
+import faviconApple60 from '../src/images/icons/apple-icon-60x60.png';
+import faviconApple76 from '../src/images/icons/apple-icon-76x76.png';
+import faviconApple114 from '../src/images/icons/apple-icon-114x114.png';
+import faviconApple120 from '../src/images/icons/apple-icon-120x120.png';
+import faviconApple144 from '../src/images/icons/apple-icon-144x144.png';
+import faviconApple152 from '../src/images/icons/apple-icon-152x152.png';
+import faviconApple180 from '../src/images/icons/apple-icon-180x180.png';
+import faviconApple from '../src/images/icons/apple-icon-72x72.png';
+import favicon16 from '../src/images/icons/favicon-16x16.png';
+import favicon32 from '../src/images/icons/favicon-32x32.png';
+import favicon from '../src/images/icons/favicon-96x96.png';
+import msicon from '../src/images/icons/ms-icon-144x144.png'
 
 export default class HTML extends React.Component {
   render() {
